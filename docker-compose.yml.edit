@@ -54,3 +54,5 @@ services:
       - /data/redis:/data
     ports:
       - '192.168.5.89:6379:6379'
+
+#apos deploy, prepare o banco: docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
